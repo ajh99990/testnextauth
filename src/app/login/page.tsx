@@ -6,7 +6,7 @@ export default function Login() {
     <>
       <button
         className="w-100px h-30px leading-30px text-center"
-        onClick={() => signIn()}
+        onClick={() => signIn("google")}
       >
         使用google登录
       </button>
